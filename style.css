@@ -80,3 +80,18 @@ a {
     color:#444;
     line-height: 1.7;
 }
+
+#bib-title {
+    margin: 50px;
+    padding: 50px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#bib-text {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
