@@ -1,0 +1,82 @@
+#container {
+    background-color: #eee;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+}
+
+#main-header {
+    background-color: #fff;
+}
+
+body {
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
+}
+
+#brand-name {
+    background-color: #fff;
+    color:#222;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    word-spacing: 0.6rem;
+}
+
+#article {
+    background-color: #fff;
+    color: #222;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:auto;
+    width: 85%;
+}
+
+#article-header {
+    border-left: 5px solid #444;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#article-title {
+    font-size: 40px;
+    padding: 20px;
+    font-family:monospace;
+}
+
+#article-text-container {
+    box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.25);
+    background-color:#fff;
+    padding: 50px;
+    margin: auto;
+    width: 75%;
+}
+
+#article-sub-title {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#article-by-line {
+    padding: 10px;
+    color:#888;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#article-text {
+    padding: 40px;
+    font-size: 25px;
+    color:#444;
+    line-height: 1.7;
+}
