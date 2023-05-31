@@ -55,7 +55,7 @@ a:hover {
 #article-title {
     font-size: 40px;
     padding: 20px;
-    font-family:monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #article-text-container {
