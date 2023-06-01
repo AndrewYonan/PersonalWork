@@ -1,7 +1,7 @@
 #container {
-    background-color: #eee;
+    background-color: #eeeeee88;
     margin: auto;
-    width: 80%;
+    width: 82%;
     justify-content: center;
 }
 
@@ -9,8 +9,15 @@
     background-color: #fff;
 }
 
+
+
 body {
-    background-color: #eee;
+    background-image: url("images/BG.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#888;
+    transform: translateY(calc(-100% * var(--scroll-speed)));
 }
 
 a {
@@ -35,11 +42,12 @@ a:hover {
 }
 
 #article {
-    background-color: #fff;
+    background-color: #eeeeeebb;
     color: #222;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:auto;
     width: 85%;
+    padding-bottom: 100px;
 }
 
 #article-header {
@@ -62,8 +70,10 @@ a:hover {
     box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.25);
     background-color:#fff;
     padding: 50px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
+    border-radius: 13px;
 }
 
 #article-sub-title {
@@ -83,7 +93,8 @@ a:hover {
     font-size: 23.8px;
     color:#444;
     line-height: 1.5;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 100px; 
 }
 
 
@@ -110,9 +121,32 @@ a:hover {
 }
 
 
+#bibliography {
+    border-radius: 20px;
+    box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.25);
+    margin-bottom: 200px;
+    margin-top: 200px;
+    padding: 50px;
+    background-color: #fff;
+    color: #333;
+}
+
+.bib-element {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+
+    width:80%;
+    margin: auto;
+}
+
+.bib-info {
+    padding-left: 60px;
+    text-indent: -60px;
+}
 
 #bib-title {
-    margin: 50px;
+    margin: 30px;
     padding: 50px;
     text-align:center;
     font-family:'Times New Roman', Times, serif;
@@ -120,9 +154,3 @@ a:hover {
     margin-top: 40px;
 }
 
-#bib-text {
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin-bottom: 100px;
-}
