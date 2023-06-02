@@ -44,7 +44,7 @@ a:hover {
     margin-left: auto;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
-    color: #888;
+    color: #666;
 }
 
 #article {
@@ -117,7 +117,8 @@ a:hover {
 
 .image-text {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
+    font-size: 18px;
+    color: #777;
 }
 
 #portrait {
